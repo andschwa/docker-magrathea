@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     mono-devel \
     ca-certificates-mono \
     nuget \
+    libicu-dev \
     libunwind8 \
     gcc \
     g++ \
