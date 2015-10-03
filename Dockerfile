@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y wget && \
     apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF && \
     apt-get update && apt-get install -y \
     mono-devel \
+    referenceassemblies-pcl \
     ca-certificates-mono \
     nuget \
     gcc \
@@ -22,6 +23,7 @@ RUN apt-get update && apt-get install -y wget && \
     libicu-dev \
     libunwind8 libunwind8-dev \
     libssl-dev \
+    libcurl4-openssl-dev \
     make \
     cmake \
     gettext && \
