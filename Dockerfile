@@ -3,7 +3,6 @@ MAINTAINER Andrew Schwartzmeyer <andschwa@microsoft.com>
 
 ENV LANG=en_US.UTF-8
 RUN locale-gen en_US.UTF-8 && update-locale
-COPY fakelogin /opt/
 
 RUN apt-get update && apt-get install -y wget && \
     echo "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty-3.6 main" | tee /etc/apt/sources.list.d/llvm.list && \
