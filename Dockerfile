@@ -23,6 +23,7 @@ RUN apt-get update && apt-get install -y git curl wget && \
     libunwind8 libunwind8-dev \
     libssl-dev \
     libcurl4-openssl-dev \
+    libpam0g-dev \
     make \
     cmake \
     gettext && \
